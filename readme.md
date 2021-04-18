@@ -1,7 +1,6 @@
 # Dotfiles-server  
 サーバーPC用のdotfilesです。
 相変わらずの自分環境ですがサーバー用なので普段用よりミニマルな構成になってます。
-普段用→[rp-agota/dotfiles](https://github.com/rp-agota/dotfiles)
 
 # 動作確認済環境
 Ubuntu server 18.04  
@@ -9,8 +8,9 @@ Ubuntu 20.04
 
 # How to install  
  ```
- git clone https://github.com/rp-agota/dotfiles-server.git dotfiles
+ git clone https://github.com/rp-agota/dotfiles.git
  cd dotfiles  
+ git checkout server
  chmod +x install.sh
  ./install.sh
  ```  

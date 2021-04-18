@@ -31,9 +31,6 @@ zplug "b4b4r07/enhancd", use:enhancd.sh
 # 256color
 zplug "chrissicool/zsh-256color"
 
-# theme
-zplug romkatv/powerlevel10k, as:theme, depth:1
-
 # ----------Plugins END----------
 
 # Install plugins if there are plugins that have not been installed
@@ -50,6 +47,3 @@ zplug load
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
-
-# Source powerlevel10k
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
